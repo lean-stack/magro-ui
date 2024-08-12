@@ -1,0 +1,16 @@
+{
+  "indent": 2,
+  "remove": ["devDependencies", "main", "clean-package"],
+  "replace": {
+    "exports": {
+      ".": {
+        "import": {
+          "types": "./dist/index.d.ts",
+          "import": "./dist/index.js"
+        }
+      },
+      "./styles.css": "./dist/styles.css",
+      "./package.json": "./package.json"
+    }
+  }
+}
