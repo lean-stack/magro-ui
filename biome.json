@@ -17,5 +17,9 @@
     "formatter": {
       "quoteStyle": "single"
     }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git"
   }
 }
