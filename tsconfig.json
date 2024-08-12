@@ -1,6 +1,14 @@
 {
   "compilerOptions": {
     // React
-    "jsx": "react-jsx"
-  }
+    "jsx": "react-jsx",
+
+    // Bundler
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    // Strictness
+    "strict": true
+  },
+  "include": ["src", ".ladle"]
 }
