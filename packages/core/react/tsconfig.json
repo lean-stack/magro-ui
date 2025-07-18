@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    // React
+    // Source
+    "strict": true,
     "jsx": "react-jsx",
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
 
     // Bundler
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-
-    // Strictness
-    "strict": true
+    "module": "Preserve",
+    "noEmit": true,
+    "skipLibCheck": true
   },
-  "include": ["src", ".ladle"]
+  "include": ["src"]
 }
