@@ -1,12 +1,10 @@
 import {
-  Button as RACButton,
-  type ButtonProps as RACButtonProps,
+  Button as _Button,
+  type ButtonProps as _ButtonProps,
 } from "react-aria-components";
 
-namespace Button {
-  export interface Props extends RACButtonProps {}
-}
+export interface ButtonProps extends _ButtonProps {}
 
-export function Button({ ...props }: Button.Props) {
-  return <RACButton {...props} />;
+export function Button({ ...props }: ButtonProps) {
+  return <_Button {...props} />;
 }
