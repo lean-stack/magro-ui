@@ -26,7 +26,7 @@
     "directory": "packages/core/react"
   },
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown --dts",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
@@ -39,7 +39,7 @@
   "devDependencies": {
     "@types/react": "^19.1.8",
     "clean-package": "^2.2.0",
-    "tsup": "^8.5.0",
+    "tsdown": "^0.12.9",
     "typescript": "~5.5.4"
   },
   "clean-package": "../clean-package.config.json"
