@@ -4,3 +4,7 @@ node_modules/
 # Build
 dist/
 .turbo/
+
+# Editor/IDE settings
+.zed
+.idea
