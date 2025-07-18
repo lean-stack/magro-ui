@@ -9,9 +9,9 @@
     "lint": "biome check --write"
   },
   "dependencies": {
-    "@biomejs/biome": "1.8.3",
-    "@changesets/cli": "^2.27.7",
-    "turbo": "2.0.12"
+    "@biomejs/biome": "2.1.2",
+    "@changesets/cli": "^2.29.5",
+    "turbo": "^2.5.5"
   },
-  "packageManager": "pnpm@9.7.0"
+  "packageManager": "pnpm@10.13.1"
 }
