@@ -1,0 +1,29 @@
+{
+  "name": "@magro-ui/theme",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Lean Tailwind Theme Library.",
+  "author": "Micha Buchholz <mail@lean-stack.rocks>",
+  "homepage": "https://lean-stack.rocks",
+  "license": "MIT",
+  "keywords": [
+    "tailwind",
+    "design system",
+    "color tokens"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lean-stack/magro-ui.git",
+    "directory": "packages/theme"
+  },
+  "files": [
+    "stylesheets"
+  ],
+  "exports": {
+    ".": "./stylesheets/core.css",
+    "./*.css": "./stylesheets/theme/*.css"
+  }
+}
