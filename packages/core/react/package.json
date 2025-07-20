@@ -27,6 +27,7 @@
   },
   "scripts": {
     "build": "tsdown --dts",
+    "typecheck": "tsc",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
@@ -40,7 +41,7 @@
     "@types/react": "^19.1.8",
     "clean-package": "^2.2.0",
     "tsdown": "^0.12.9",
-    "typescript": "~5.5.4"
+    "typescript": "~5.8.3"
   },
   "clean-package": "../clean-package.config.json"
 }

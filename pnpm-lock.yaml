@@ -32,10 +32,10 @@ importers:
         version: 2.2.0
       tsdown:
         specifier: ^0.12.9
-        version: 0.12.9(typescript@5.5.4)
+        version: 0.12.9(typescript@5.8.3)
       typescript:
-        specifier: ~5.5.4
-        version: 5.5.4
+        specifier: ~5.8.3
+        version: 5.8.3
 
   packages/theme: {}
 
@@ -1386,8 +1386,8 @@ packages:
     resolution: {integrity: sha512-eZ7wI6KjtT1eBqCnh2JPXWNUAxtoxxfi6VdBdZFvil0ychCOTxbm7YLRBi1JSt7U3c+u3CLxpoPxLdvr/Npr3A==}
     hasBin: true
 
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -3186,7 +3186,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rolldown-plugin-dts@0.13.14(rolldown@1.0.0-beta.28)(typescript@5.5.4):
+  rolldown-plugin-dts@0.13.14(rolldown@1.0.0-beta.28)(typescript@5.8.3):
     dependencies:
       '@babel/generator': 7.28.0
       '@babel/parser': 7.28.0
@@ -3198,7 +3198,7 @@ snapshots:
       get-tsconfig: 4.10.1
       rolldown: 1.0.0-beta.28
     optionalDependencies:
-      typescript: 5.5.4
+      typescript: 5.8.3
     transitivePeerDependencies:
       - oxc-resolver
       - supports-color
@@ -3275,7 +3275,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tsdown@0.12.9(typescript@5.5.4):
+  tsdown@0.12.9(typescript@5.8.3):
     dependencies:
       ansis: 4.1.0
       cac: 6.7.14
@@ -3285,13 +3285,13 @@ snapshots:
       empathic: 2.0.0
       hookable: 5.5.3
       rolldown: 1.0.0-beta.28
-      rolldown-plugin-dts: 0.13.14(rolldown@1.0.0-beta.28)(typescript@5.5.4)
+      rolldown-plugin-dts: 0.13.14(rolldown@1.0.0-beta.28)(typescript@5.8.3)
       semver: 7.7.2
       tinyexec: 1.0.1
       tinyglobby: 0.2.14
       unconfig: 7.3.2
     optionalDependencies:
-      typescript: 5.5.4
+      typescript: 5.8.3
     transitivePeerDependencies:
       - '@typescript/native-preview'
       - oxc-resolver
@@ -3327,7 +3327,7 @@ snapshots:
       turbo-windows-64: 2.5.5
       turbo-windows-arm64: 2.5.5
 
-  typescript@5.5.4: {}
+  typescript@5.8.3: {}
 
   unconfig@7.3.2:
     dependencies:
