@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+/* Import MagroUI and theme */
 @import "@magro-ui/react";
 @source "../node_modules/@magro-ui/react/dist";
 @import "@magro-ui/theme/mauve-violet.css";

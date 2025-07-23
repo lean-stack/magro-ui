@@ -36,6 +36,7 @@
     "directory": "packages/core/react"
   },
   "scripts": {
+    "dev": "tsdown --watch --dts --copy styles/theme",
     "build": "tsdown --dts --copy styles/theme",
     "typecheck": "tsc",
     "prepack": "clean-package",
