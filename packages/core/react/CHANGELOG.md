@@ -1,5 +1,11 @@
 # @magro-ui/react
 
+## 0.0.6
+
+### Patch Changes
+
+- [904e054](https://github.com/lean-stack/magro-ui/commit/904e054): Re-configured packaging.
+
 ## 0.0.5
 
 ### Patch Changes
