@@ -17,6 +17,16 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js"
+      },
+      "style": "./dist/theme/core.css"
+    },
+    "./package.json": "./package.json"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -26,7 +36,7 @@
     "directory": "packages/core/react"
   },
   "scripts": {
-    "build": "tsdown --dts",
+    "build": "tsdown --dts --copy styles/theme",
     "typecheck": "tsc",
     "prepack": "clean-package",
     "postpack": "clean-package restore"

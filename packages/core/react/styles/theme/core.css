@@ -44,8 +44,11 @@
     }
 }
 
-@theme inline {
+@theme {
     --color-*: initial;
+
+    --color-white: #fff;
+    --color-black: #000;
 
     --color-app-1: var(--app-1);
     --color-app-2: var(--app-2);
