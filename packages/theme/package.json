@@ -26,10 +26,14 @@
     "./*.css": "./dist/*.css"
   },
   "scripts": {
-    "build": "node build-themes.ts"
+    "build": "node build-themes.ts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
   },
   "devDependencies": {
     "@radix-ui/colors": "^3.0.0",
+    "clean-package": "^2.2.0",
     "rimraf": "^6.0.1"
-  }
+  },
+  "clean-package": "../clean-package.config.json"
 }

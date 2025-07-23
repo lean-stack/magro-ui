@@ -94,6 +94,9 @@ importers:
       '@radix-ui/colors':
         specifier: ^3.0.0
         version: 3.0.0
+      clean-package:
+        specifier: ^2.2.0
+        version: 2.2.0
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1

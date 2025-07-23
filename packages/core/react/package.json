@@ -57,5 +57,5 @@
     "tsdown": "^0.12.9",
     "typescript": "~5.8.3"
   },
-  "clean-package": "../clean-package.config.json"
+  "clean-package": "../../clean-package.config.json"
 }
