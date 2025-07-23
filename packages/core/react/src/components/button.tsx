@@ -2,7 +2,7 @@ import {
   Button as _Button,
   type ButtonProps as _ButtonProps,
 } from "react-aria-components";
-import { cva, type VariantProps } from "../../utils/cva";
+import { cva, type VariantProps } from "../utils/cva";
 
 const buttonClasses = cva({
   base: ["border px-4 py-2"],
