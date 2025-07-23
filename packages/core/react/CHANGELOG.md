@@ -1,5 +1,13 @@
 # @magro-ui/react
 
+## 0.0.5
+
+### Patch Changes
+
+- [26e73ad](https://github.com/lean-stack/magro-ui/commit/26e73ad): Move component up. Drop extranous folder.
+- [bdf4aaf](https://github.com/lean-stack/magro-ui/commit/bdf4aaf): Add utilities and adjust tooling.
+- [ca85c86](https://github.com/lean-stack/magro-ui/commit/ca85c86): Add base colors and refine package exports.
+
 ## 0.0.4
 
 ### Patch Changes
