@@ -1,6 +1,6 @@
 {
   "name": "@magro-ui/theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "description": "Lean Tailwind Theme Library.",
   "author": "Micha Buchholz <mail@lean-stack.rocks>",
