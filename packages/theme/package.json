@@ -23,7 +23,6 @@
     "stylesheets"
   ],
   "exports": {
-    ".": "./stylesheets/core.css",
     "./*.css": "./stylesheets/theme/*.css"
   }
 }
