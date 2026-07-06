@@ -10,18 +10,18 @@
   "dependencies": {
     "@magro-ui/react": "workspace:*",
     "@magro-ui/theme": "workspace:*",
-    "@tanstack/react-router": "^1.168.24",
-    "@tanstack/router-plugin": "^1.167.27",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "@tanstack/react-router": "^1.170.17",
+    "@tanstack/router-plugin": "^1.168.19",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.2.4",
-    "@types/node": "^22.19.17",
-    "@types/react": "^19.2.14",
+    "@tailwindcss/vite": "^4.3.2",
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^4.7.0",
-    "tailwindcss": "^4.2.4",
-    "vite": "^7.3.2"
+    "@vitejs/plugin-react": "^6.0.3",
+    "tailwindcss": "^4.3.2",
+    "vite": "^8.1.3"
   }
 }
