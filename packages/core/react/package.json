@@ -44,19 +44,19 @@
   },
   "dependencies": {
     "cva": "1.0.0-beta.4",
-    "react-aria-components": "^1.17.0",
-    "tailwind-merge": "^3.5.0"
+    "react-aria-components": "^1.19.0",
+    "tailwind-merge": "^3.6.0"
   },
   "peerDependencies": {
     "react": ">=19",
     "tailwindcss": ">=4"
   },
   "devDependencies": {
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.17",
     "clean-package": "^2.2.0",
-    "tailwindcss": "^4.2.4",
-    "tsdown": "^0.12.9",
-    "typescript": "~5.8.3"
+    "tailwindcss": "^4.3.2",
+    "tsdown": "^0.22.3",
+    "typescript": "~6.0.3"
   },
   "clean-package": "../../clean-package.config.json"
 }
