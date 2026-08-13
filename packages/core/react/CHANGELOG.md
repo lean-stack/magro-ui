@@ -1,5 +1,11 @@
 # @magro-ui/react
 
+## 0.0.7
+
+### Patch Changes
+
+- [88c7547](https://github.com/lean-stack/magro-ui/commit/88c7547): Add dev script to simplify development.
+
 ## 0.0.6
 
 ### Patch Changes

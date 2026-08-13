@@ -9,8 +9,10 @@ function App() {
   return (
     <div>
       <h1>MagroUI Kitchen Sink</h1>
-      <div className="p-8">
-        <Button variant="primary">Works</Button>
+      <div className="p-8 flex flex-col items-center gap-8">
+        <Button variant="default">Default</Button>
+        <Button variant="primary">Primary</Button>
+        <Button variant="ghost">Ghost</Button>
       </div>
     </div>
   );

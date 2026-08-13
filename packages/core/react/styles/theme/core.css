@@ -78,3 +78,7 @@
     --background-color-app-bg: light-dark(var(--app-bg), var(--app-bg-dark));
     --border-color-default: var(--app-6);
 }
+
+:root {
+    --app-6: color-mix(in oklab, currentColor 50%, transparent);
+}

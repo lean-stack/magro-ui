@@ -5,12 +5,17 @@ import {
 import { cva, type VariantProps } from "../utils/cva";
 
 const buttonClasses = cva({
-  base: ["border px-4 py-2"],
+  base: ["px-4 py-2 rounded-md transition-colors"],
   variants: {
     variant: {
-      unset: null,
-      primary: ["bg-accent-9"],
+      default: ["border text-app-11 hover:bg-app-4 hover:text-app-12"],
+      primary: ["border bg-black text-white hover:bg-accent-10"],
+      ghost: ["text-app-11 hover:bg-app-4 hover:text-app-12"],
     },
+  },
+  compoundVariants: [],
+  defaultVariants: {
+    variant: "default",
   },
 });
 

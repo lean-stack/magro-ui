@@ -1,6 +1,6 @@
 {
   "name": "@magro-ui/react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "description": "Lean React Component library.",
   "author": "Micha Buchholz <mail@lean-stack.rocks>",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "cva": "1.0.0-beta.4",
-    "react-aria-components": "^1.19.0",
+    "react-aria-components": "^1.20.0",
     "tailwind-merge": "^3.6.0"
   },
   "peerDependencies": {
@@ -52,10 +52,10 @@
     "tailwindcss": ">=4"
   },
   "devDependencies": {
-    "@types/react": "^19.2.17",
+    "@types/react": "^19.2.18",
     "clean-package": "^2.2.0",
-    "tailwindcss": "^4.3.2",
-    "tsdown": "^0.22.3",
+    "tailwindcss": "^4.3.3",
+    "tsdown": "^0.22.14",
     "typescript": "~6.0.3"
   },
   "clean-package": "../../clean-package.config.json"
